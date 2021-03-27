@@ -15,6 +15,7 @@ for (item in todolist) {
     }
   }
 
-for (item in todolist) {
-    console.log(todolist(item).todo)
+  for (item in completedTodos){
+	let {todo, status} = completedTodos[item];
+	console.log(todo)
 }
