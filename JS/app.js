@@ -5,9 +5,9 @@ const todolist = [
     {todo:"link the css and js to html", status:"complete"},
     {todo:"commit code at appropriate intervals", status:"started"},
     {todo:"push code to git repo", status:"started"}
-;]
+]
 
-const completedTodos = [];
+const completedTodos = []
 
 for (item in todolist) {
     if (todolist[item].status === "complete") {
